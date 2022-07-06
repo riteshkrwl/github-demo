@@ -2,7 +2,7 @@
 
 import Foundation
 
-var str = "Hello, playground"
+func space(_ line: Int){ print("\n* * * * * * * * * * * * * * * * * * ##.... \(line) ...##\n")}
 
 //MARK: *FUNCATION OVERLOADING*
 ///This means that two functions with exactly the same name, including their external parameter names, can coexist as long as they have different *signatures*.
