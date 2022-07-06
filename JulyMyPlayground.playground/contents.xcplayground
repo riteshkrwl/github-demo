@@ -3,5 +3,6 @@
     <pages>
         <page name='SwiftPrivacy'/>
         <page name='SwiftFunctions'/>
+        <page name='SwiftClosure'/>
     </pages>
 </playground>
