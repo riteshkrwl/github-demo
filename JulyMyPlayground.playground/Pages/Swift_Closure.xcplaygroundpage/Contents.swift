@@ -50,7 +50,7 @@ func setX(newX:Int) {x = newX }
 pass100(setX)
 print(x) // ?
 
-///Examole 2
+///Example 2
 
 var greet = {
   print("Hello, World!")

@@ -5,7 +5,7 @@ import Foundation
 func space(_ line: Int){ print("\n* * * * * * * * * * * * * * * * * * ##.... \(line) ...##\n")}
 
 //MARK: *FUNCATION OVERLOADING*
-///This means that two functions with exactly the same name, including their external parameter names, can coexist as long as they have different *signatures*.
+///This means that two functions with exactly the same name, including their  parameter label, can coexist as long as they have different *signatures*.
 
 func say (_ what:String) {//function with parameter as String
     print(what)
@@ -13,7 +13,7 @@ func say (_ what:String) {//function with parameter as String
 func say (_ what:Int) {//function with same name and paremeter but have different signature i.e. parameter is Int
     print(what as Any)
     }
-func say (_ who:Bool){//function with same name and external parameter name but have different internal name and signature
+func say (_ who:Bool){//function with same name and  parameter label but have different internal name and signature
     print (who)
 }
 
@@ -22,8 +22,8 @@ say(123)
 say(false)
 space(#line)
 
-///Example 2 with #same function name and external paramater name but
-///different signature and internal paramater
+///Example 2 with #same function name and  paramater label but
+///different signature and  paramater name
 func lolGolu(says greet: String){
     print("Golu says \(greet)!!!\n")
 }
@@ -44,7 +44,7 @@ lolGolu(says: ["Apple", "Banana", "Pomegranate"])
 lolGolu(want: "to Love her")
 space(#line)
 
-///Example with only **Internal parameter name**
+///Example with only ** parameter name**
 
 func meAsk(name:String,todo:String){
     print("Jiju ask \(name) \(todo) 🤘\n")
@@ -58,7 +58,7 @@ meAsk(name: "Jueee", todo: "not to be natkhat!!! 🙈 🙉 🙊")
 meAsk(name: "Be-2", todo: 6)
 space(#line)
 
-///Examples with same Funcnaem and parameters names but return type different will not overload the function
+///Examples with same Function and parameters names but return type different will not overload the function
 ///uncommect the blow code snipet to expole
 
 //func whatToDo(who name:String){
