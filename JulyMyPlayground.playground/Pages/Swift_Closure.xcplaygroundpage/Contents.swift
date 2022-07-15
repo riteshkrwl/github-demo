@@ -1,4 +1,4 @@
-//: [Previous](@previous)
+//: [Previous](Swift_Function_Overloading)
 
 import Foundation
 
@@ -24,6 +24,14 @@ var reversedNames = names.sorted(by: backward)
 reversedNames = names.sorted(by: { (s1: String, s2: String) -> Bool in
     return s1 > s2
 })
+
+///Global and nested functions, as introduced in Functions, are actually special cases of closures.
+///Closures take one of three forms:
+///- Global functions are closures that have a name and don’t capture any values.
+///- Nested functions are closures that have a name and can capture values from their enclosing function.
+///- Closure expressions are unnamed closures written in a lightweight syntax that can capture values from their surrounding context.
+
+
 
 
 ///#Inferring Type From Context
@@ -105,7 +113,7 @@ grabLunch {
 }
 
 
-///#TRAILING CLOSURE#
+///#TRAILING CLOSURE
 ///In trailing closure, if a function accepts a closure as its last parameter,
 
 //Defining a function which has a trailing closure(search)

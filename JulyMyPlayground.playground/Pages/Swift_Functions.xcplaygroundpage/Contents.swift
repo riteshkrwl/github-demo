@@ -306,4 +306,4 @@ func anotherGreetingImp(for person :String) -> String {
 print(anotherGreetingImp(for: "Be-2 Bhai"))
 space(#line)
 
-//: [Next](@next)
+//: [Next](Swift_Function_2)

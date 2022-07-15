@@ -1,4 +1,4 @@
-//: [Previous](@previous)
+//: [Previous](Swift_Function_2)
 
 import Foundation
 
@@ -58,7 +58,10 @@ meAsk(name: "Jueee", todo: "not to be natkhat!!! 🙈 🙉 🙊")
 meAsk(name: "Be-2", todo: 6)
 space(#line)
 
-///Examples with same Function and parameters names but return type different will not overload the function
+///Examples with same Function
+///
+///
+/// and parameters names but return type different will not overload the function
 ///uncommect the blow code snipet to expole
 
 //func whatToDo(who name:String){
@@ -107,4 +110,4 @@ let checkFunOverloadByReturnType3 :String = say1(what: "Juee is very naughty nau
 let checkFunOverloadByReturnType4 :Int = say1(what: "iski uski sabki lootiya doob gayi")
 space(#line)
 
-//: [Next](@next)
+//: [Next](Swift_Closure)
