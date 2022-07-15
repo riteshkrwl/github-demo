@@ -7,5 +7,7 @@
         <page name='Swift_Privacy'/>
         <page name='Swift_Function_2'/>
         <page name='Swift_Tuple'/>
+        <page name='Swift_Documentation'/>
+        <page name='Code_Commecnts'/>
     </pages>
 </playground>
